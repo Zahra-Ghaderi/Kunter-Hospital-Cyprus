@@ -1,0 +1,15 @@
+
+.logo {
+  background-color: var(--color-purple);
+}
+
+.link {
+  color: var(--color-purple-links);
+  transition: 0.2s;
+}
+
+.link:hover {
+  background-color: var(--color-purple);
+  cursor: pointer;
+  color: black;
+}

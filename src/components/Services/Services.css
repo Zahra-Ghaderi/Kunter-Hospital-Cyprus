@@ -1,0 +1,17 @@
+.ag-theme-alpine {
+    --ag-foreground-color: rgb(126, 46, 132);
+    --ag-background-color: rgb(248, 255, 255);
+    --ag-header-foreground-color: rgb(134, 1, 190);
+    --ag-header-background-color: rgb(210, 152, 243);
+    --ag-odd-row-background-color: rgb(0, 0, 0, 0.03);
+    --ag-header-column-resize-handle-color: rgb(87, 0, 94);
+  
+    --ag-font-size: 15px;
+    --ag-font-family: monospace;
+  }
+
+.link:hover {
+    background-color: var(--color-purple);
+    cursor: pointer;
+    color: black;
+  }

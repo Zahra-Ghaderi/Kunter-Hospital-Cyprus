@@ -1,0 +1,111 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Hossein\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+
+PATH: 
+  C:\Program Files\Borland\Delphi7\Bin;C:\Program Files\Borland\Delphi7\Projects\Bpl\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\80\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Users\Hossein\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hossein\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.1
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.10.16.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Hossein\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:814:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at TLSSocket.Socket._onTimeout (node:net:526:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "front-end",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@emotion/react": "^11.10.4",
+      "@emotion/styled": "^11.10.4",
+      "@fortawesome/fontawesome-svg-core": "^6.2.0",
+      "@fortawesome/free-brands-svg-icons": "^6.2.0",
+      "@fortawesome/free-regular-svg-icons": "^6.2.0",
+      "@fortawesome/free-solid-svg-icons": "^6.2.0",
+      "@fortawesome/react-fontawesome": "^0.2.0",
+      "@material-ui/core": "^4.12.4",
+      "@mui/icons-material": "^5.10.3",
+      "@mui/lab": "^5.0.0-alpha.99",
+      "@mui/material": "^5.10.8",
+      "@mui/styled-engine-sc": "^5.10.3",
+      "@mui/x-data-grid": "^5.17.5",
+      "@mui/x-date-pickers": "^5.0.3",
+      "@popperjs/core": "^2.11.6",
+      "@react-icons/all-files": "^4.1.0",
+      "@tailwindcss/forms": "^0.5.3",
+      "@tailwindcss/postcss7-compat": "^2.2.17",
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "@types/canvasjs": "^1.9.7",
+      "@types/jest": "^27.5.2",
+      "@types/node": "^16.11.59",
+      "@types/react": "^18.0.21",
+      "@types/react-dom": "^18.0.6",
+      "ag-grid-community": "^28.2.0",
+      "ag-grid-react": "^28.2.0",
+      "axios": "^1.1.3",
+      "canvasjs": "^1.8.3",
+      "date-fns": "^2.29.3",
+      "dayjs": "^1.11.5",
+      "devextreme-react": "^22.1.5",
+      "json-server": "^0.17.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.4.0",
+      "react-router-dom": "^5.1.2",
+      "react-scripts": "5.0.1",
+      "styled-components": "^5.3.5",
+      "typescript": "^4.8.3",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@types/react-router-dom": "^5.3.3",
+      "postcss-pxtorem": "^5.1.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
